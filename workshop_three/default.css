@@ -12,6 +12,7 @@
     color: brown;
 }
 
-#navigation a:hover {
+#navigation #contant a:hover {
     color: black;
 }
+
