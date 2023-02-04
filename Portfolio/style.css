@@ -1,0 +1,102 @@
+body {
+    background-color: #222831;
+}
+  
+.tableOfContents,
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    position: fixed;
+    width: 100%;
+}
+  
+.tableOfContents {
+    top: 0;
+    left: 0;
+}
+
+.tableOfContents a,
+.socialMedia a {
+    font-size: 14px;
+}
+
+.socialMedia {
+    bottom: 0;
+}
+
+.tableOfContents .logo {
+    color: #EEEEEE;
+    text-align: left;
+    padding-right: 14px;
+    position: absolute;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #eeeeeeb7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover:not(.active) {
+    background-color: #393E46;
+    border-radius: 10px;
+    color: #EEEEEE;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 8px;
+}
+
+.socialMedia a {
+    text-transform: lowercase;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - (56px * 2));      
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-size: 44px;
+}
+
+main a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+main p {
+    font-size: 16px;
+}
